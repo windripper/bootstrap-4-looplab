@@ -1,0 +1,35 @@
+.section__title {
+  text-align: center;
+}
+
+.about {
+  background-color: rgba(236, 236, 236, 0.14);
+  .row > div {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      margin-bottom: 20px;
+      display: block;
+      padding: 27px 20px 30px 20px;
+
+      &:hover {
+        box-shadow: 5px 5px 50px 0px rgba(6, 30, 52, 0.11);
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      }
+
+      img {
+        max-height: 100px;
+        margin-bottom: 10px;
+      }
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 15/16 + 0rem;
+    }
+  }
+}

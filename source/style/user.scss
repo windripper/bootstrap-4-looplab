@@ -1,0 +1,21 @@
+@import "common/materialize-fonts";
+
+
+.sub-nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a.trigger-my-profile {
+  display: inline-block;
+}
+
+.card .waves-effect {
+  overflow: unset;
+}
+
+.social {
+  li {
+    margin-bottom: 10px;
+  }
+}

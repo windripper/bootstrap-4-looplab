@@ -1,0 +1,38 @@
+footer.footer
+    .container
+        .row
+            .col-md-4.col-lg-4.footer__logo
+                a(href='#')
+                    img(src='assets/img/logo.png', width="150px", height="150px", alt="Logo Pharm Comunnity")
+                div.footer__brand-name
+                    | <span>Pharm</span><hr><span>Community</span><br>
+                    small інтерактивні онлайн курси
+                    ul.social.list-unstyled
+                        li
+                            a.social__link(href="#") VK
+                        li
+                            a.social__link.social__link--fc(href="#") Facebook
+                        li
+                            a.social__link.social__link--youtube(href="#") YouTube
+            .col-md-3.offset-md-5.col-lg-3.offset-lg-0.d-flex.justify-content-center.align-items-start
+                ul.docs.list-unstyled
+                    li
+                        a.docs__title(href="#") Документи
+                    li
+                        a.docs__link(href="#") Ліцензія
+                    li
+                        a.docs__link.social__link--fc(href="#") Конфіденційність
+                    li
+                        a.docs__link.social__link--youtube(href="#") Угода
+            .col-md-6.offset-md-3.col-lg-5.offset-lg-0
+                p Підпишіться на нашу розсилку. Ми надсилатимемо тобі цікаві матеріали та сповіщення про проходження нових тестів
+                form
+                    .form-group
+                        label(for='mailingInput') Email адреса
+                        input#mailingInput.form-control(type='email', aria-describedby='email', placeholder='Введіть свою почту')
+                        small#emailHelp.form-text.text-muted Ми ніколи не будемо ділитися вашою електронною поштою з ким-небудь ще.
+
+
+        hr
+        .copyright Всі права захищені | 2018 | Зроблено з любовю <i class="heart"></i>
+
